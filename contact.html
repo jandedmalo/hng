@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Me</title>
+</head>
+<body>
+  
+ <link rel="stylesheet" type="text/css" href= "contact.css"></a>
+<div class="container">
+     <form
+      Form action="mailto:jandedmalo@gmail.com" method="post" enctype="text/plain">
+    <label for="Title">Title</label>
+    <select id="Title" name="Title">
+      <option value="Mr">Mr</option>
+      <option value="Mrs">Mrs</option>
+      <option value="Others">Others</option>
+    </select>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="4" required >
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." minlength="4" required>
+
+    <label for="email">Email </label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email." required>
+
+    
+
+    <label for="Message">Message</label>
+    <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px" minlength="20" required></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+</body>
+</html>
